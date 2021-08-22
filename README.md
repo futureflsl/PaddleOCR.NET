@@ -14,7 +14,7 @@
 
 - 2、引用PaddleOCR.NET到自己项目中，编写代码
 - 
-# 案例一：仅做OCR检测
+# 案例一：仅做OCR检测，支持byte[],图片路径,和Bitmap，如果使用opencvsharp也可以扩展
 
    Bitmap bmp = new Bitmap("D:\\1.jpg");  
    Bitmap b = new Bitmap(bmp);  
@@ -23,3 +23,20 @@
    var result = infer.Detect("D:\\1.jpg");  
    pictureBox1.Image =  infer.DrawImage(b,result);  
    infer.Dispose();
+   
+# 案例二：仅做OCR识别，单文本图片识别
+   InferManager infer = new InferManager("config.txt", false, true);  
+   Bitmap bmp = new Bitmap("D:\\line.jpg");  
+   var result = infer.RecognizeOnly(bmp);  
+   infer.Dispose();  
+   MessageBox.Show(result.Text+"|"+result.Score);
+  
+ # 案例三：对图片所有文本检测ocr检测和识别，并返回json数据格式
+     InferManager infer = new InferManager("config.txt", true, true);  
+     var result = infer.DetectAndRecognize("D:\\22.jpg");  
+     Console.WriteLine(result);  
+     infer.Dispose();
+     
+## 注意：所有代码在VS2019 x64 release测试通过，识别和检测加入20%概率的不检测提示，个人或者商业授权请关注微信公众号未来自主研究中心获取
+
+
