@@ -16,8 +16,8 @@
 - 
 # 案例一：仅做OCR检测
 
-   Bitmap bmp = new Bitmap("D:\\1.jpg");
-            Bitmap b = new Bitmap(bmp);
+   Bitmap bmp = new Bitmap("D:\\1.jpg");  
+   Bitmap b = new Bitmap(bmp);
             bmp.Dispose();
             InferManager infer = new InferManager("config.txt",true,false);
             var result = infer.Detect("D:\\1.jpg");
