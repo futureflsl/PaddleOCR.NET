@@ -1,0 +1,11 @@
+cmake .. -DPADLLE_LIB=E:/PaddleOCR-release-2.2/paddle/lib -DOpenCV_DIR=D:/lufiles/opencv344/build/x64/vc15/lib
+
+E:\PaddleOCR-release-2.2\paddle\fluid\inference;E:\PaddleOCR-release-2.2\paddle\include;E:\PaddleOCR-release-2.2\third_party\install\protobuf\include;E:\PaddleOCR-release-2.2\third_party\install\glog\include;E:\PaddleOCR-release-2.2\third_party\install\gflags\include;E:\PaddleOCR-release-2.2\third_party\install\xxhash\include;\third_party\install\zlib\include;\third_party\boost;\third_party\eigen3;E:\PaddleOCR-release-2.2\deploy\cpp_infer;\third_party\install\mklml\include;D:\lufiles\opencv344\build\include;D:\lufiles\opencv344\build\include\opencv;%(AdditionalIncludeDirectories)
+
+
+
+E:\PaddleOCR-release-2.2\third_party\install\glog\lib;E:\PaddleOCR-release-2.2\third_party\install\mklml\lib;E:/PaddleOCR-release-2.2/paddle/lib;E:/PaddleOCR-release-2.2/paddle/lib/$(Configuration);E:/PaddleOCR-release-2.2/paddle/fluid/inference;E:/PaddleOCR-release-2.2/paddle/fluid/inference/$(Configuration);E:/PaddleOCR-release-2.2/third_party/install/zlib/lib;E:/PaddleOCR-release-2.2/third_party/install/zlib/lib/$(Configuration);E:/PaddleOCR-release-2.2/third_party/install/protobuf/lib;E:/PaddleOCR-release-2.2/third_party/install/protobuf/lib/$(Configuration);E:/PaddleOCR-release-2.2/third_party/install/glog/lib;E:/PaddleOCR-release-2.2/third_party/install/glog/lib/$(Configuration);E:/PaddleOCR-release-2.2/third_party/install/gflags/lib;E:/PaddleOCR-release-2.2/third_party/install/gflags/lib/$(Configuration);E:/PaddleOCR-release-2.2/third_party/install/xxhash/lib;E:/PaddleOCR-release-2.2/third_party/install/xxhash/lib/$(Configuration);E:/PaddleOCR-release-2.2/third_party/install/mklml/lib;E:/PaddleOCR-release-2.2/third_party/install/mklml/lib/$(Configuration);D:/lufiles/opencv344/build/x64/vc15/lib;D:/lufiles/opencv344/build/x64/vc15/lib/$(Configuration);%(AdditionalLibraryDirectories)
+
+
+
+paddle_inference.lib;mklml.lib;libiomp5md.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libcmt.lib;shlwapi.lib;D:\lufiles\opencv344\build\x64\vc15\lib\opencv_world344d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\PaddleOCR.NET\bin\x64\Release\PaddleOCR.NET.dll
+C:\Users\Administrator\Desktop\PaddleOCR.NET\bin\x64\Release\PaddleOCR.NET.pdb
+C:\Users\Administrator\Desktop\PaddleOCR.NET\obj\x64\Release\PaddleOCR.NET.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\PaddleOCR.NET\obj\x64\Release\PaddleOCR.NET.dll
+C:\Users\Administrator\Desktop\PaddleOCR.NET\obj\x64\Release\PaddleOCR.NET.pdb
